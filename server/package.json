@@ -1,0 +1,19 @@
+{
+  "name": "chess-academy-server",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "chess.js": "^1.0.0-beta.8",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.10.1",
+    "stockfish": "^16.0.0",
+    "ws": "^8.19.0"
+  }
+}
